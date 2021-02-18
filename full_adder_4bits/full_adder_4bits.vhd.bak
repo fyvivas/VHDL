@@ -1,0 +1,40 @@
+
+
+entity full_adder_4bits is
+	port
+	(
+		-- Input ports
+		A, B	: in  bit_vector(3 downto 0);
+
+		-- Output ports
+		Sum	: out bit_vector(3 downto 0);
+		Cout	: out bit
+	);
+end full_adder_4bits;
+
+
+
+-- Library Clause(s) (optional)
+-- Use Clause(s) (optional)
+
+architecture <arch_name> of <entity_name> is
+
+	-- Declarations (optional)
+
+begin
+
+	-- Process Statement (optional)
+
+	-- Concurrent Procedure Call (optional)
+
+	-- Concurrent Signal Assignment (optional)
+
+	-- Conditional Signal Assignment (optional)
+
+	-- Selected Signal Assignment (optional)
+
+	-- Component Instantiation Statement (optional)
+
+	-- Generate Statement (optional)
+
+end <arch_name>;

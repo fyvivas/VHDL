@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, D:/CursoUnicauca2020-I/Digitales_II_C/ej41/ej41.vhd
+source_file = 1, D:/CursoUnicauca2020-I/Digitales_II_C/ej41/db/ej41.cbx.xml
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ej41
+instance = comp, \F~output\, F~output, ej41, 1
+instance = comp, \A~input\, A~input, ej41, 1
+instance = comp, \B~input\, B~input, ej41, 1
+instance = comp, \C~input\, C~input, ej41, 1

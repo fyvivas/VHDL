@@ -1,0 +1,68 @@
+
+
+entity INV1 is
+	port
+	(
+		-- Input ports
+		A	: in  bit;
+		-- Output ports
+		F	: out bit
+	);
+end INV1;
+
+entity AND3 is
+	port
+	(
+		-- Input ports
+		A, B, C	: in  bit;
+		-- Output ports
+		F	: out bit
+	);
+end AND3;
+
+entity OR3 is
+	port
+	(
+		-- Input ports
+		A, B, C	: in  bit;
+		-- Output ports
+		F	: out bit
+	);
+end OR3;
+
+
+entity ej41 is
+	port
+	(
+		-- Input ports
+		A, B, C	: in  bit;
+		-- Output ports
+		F	: out bit
+	);
+end ej41;
+
+-- Library Clause(s) (optional)
+-- Use Clause(s) (optional)
+
+architecture <arch_name> of <entity_name> is
+
+	-- Declarations (optional)
+
+begin
+
+	-- Process Statement (optional)
+
+	-- Concurrent Procedure Call (optional)
+
+	-- Concurrent Signal Assignment (optional)
+
+	-- Conditional Signal Assignment (optional)
+
+	-- Selected Signal Assignment (optional)
+
+	-- Component Instantiation Statement (optional)
+
+	-- Generate Statement (optional)
+
+end <arch_name>;
+

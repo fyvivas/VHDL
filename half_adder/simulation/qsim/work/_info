@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CursoUnicauca2020-I\Digitales_II_C\half_adder\simulation\qsim
+vhalf_adder
+Z1 I5nO:A_iN>YHCokDo9<eWW3
+Z2 V`Q2nR^XWJnzN0UVUm3ZoP2
+Z3 dD:\CursoUnicauca2020-I\Digitales_II_C\half_adder\simulation\qsim
+Z4 w1613652508
+Z5 8half_adder.vo
+Z6 Fhalf_adder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|half_adder.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 DN2jSdRgW8VocgTC4:@Ti3
+!s85 0
+Z11 !s108 1613652509.639000
+Z12 !s107 half_adder.vo|
+!s101 -O0
+vhalf_adder_vlg_check_tst
+!i10b 1
+Z13 !s100 k=1T?FCglf7_UR1fPkan^1
+Z14 I<DP:ci5[ZLLL83?kCCLmh3
+Z15 Ve]2QeF6LO@^Y_ImoC@^i`0
+R3
+Z16 w1613652507
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1613652509.896000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vhalf_adder_vlg_sample_tst
+!i10b 1
+Z22 !s100 =4Y<:NU]Sl6lzjP0;Ohe10
+Z23 Ilz18J6<<b4gUUWjkkG`R:1
+Z24 Vz[TE[Ulo^4P8Tf<SB[:G53
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vhalf_adder_vlg_vec_tst
+!i10b 1
+Z25 !s100 I@1I6?Z<LMIaY>o4]^T>_2
+Z26 IPnUn8PX;`HN^2addR@8jh1
+Z27 VnhAB^:dX0ozzmCS4L6W0I0
+R3
+R16
+R17
+R18
+Z28 L0 181
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

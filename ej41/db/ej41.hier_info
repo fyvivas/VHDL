@@ -1,0 +1,12 @@
+|ej41
+A => INV1:U1.A
+B => ~NO_FANOUT~
+C => ~NO_FANOUT~
+F <= <GND>
+
+
+|ej41|INV1:U1
+A => F.DATAIN
+F <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+

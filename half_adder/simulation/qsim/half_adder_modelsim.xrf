@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/CursoUnicauca2020-I/Digitales_II_C/half_adder/half_adder.vhd
+source_file = 1, D:/CursoUnicauca2020-I/Digitales_II_C/half_adder/Waveform.vwf
+source_file = 1, D:/CursoUnicauca2020-I/Digitales_II_C/half_adder/db/half_adder.cbx.xml
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = half_adder
+instance = comp, \Sum~output , Sum~output, half_adder, 1
+instance = comp, \Cout~output , Cout~output, half_adder, 1
+instance = comp, \A~input , A~input, half_adder, 1
+instance = comp, \B~input , B~input, half_adder, 1
+instance = comp, \Sum~0 , Sum~0, half_adder, 1
+instance = comp, \Cout~0 , Cout~0, half_adder, 1
