@@ -1,0 +1,11 @@
+|fsm
+Press => next_state.DATAB
+Press => Open_CW.DATAB
+Press => Close_CCW.DATAA
+Press => next_state.DATAA
+clk => current_state.CLK
+reset => current_state.ACLR
+Open_CW << Open_CW.DB_MAX_OUTPUT_PORT_TYPE
+Close_CCW << Close_CCW.DB_MAX_OUTPUT_PORT_TYPE
+
+

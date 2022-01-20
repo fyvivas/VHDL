@@ -1,0 +1,19 @@
+|codec
+A => yz.IN0
+A => yz.IN0
+A => yz.IN0
+B => yz.IN1
+B => yz.IN1
+B => yz.IN1
+C => yz.IN1
+C => yz.IN1
+C => yz.IN1
+C => yz.IN1
+D => yz.IN1
+D => yz.IN1
+D => yz.IN1
+D => yz.IN1
+Y <= yz.DB_MAX_OUTPUT_PORT_TYPE
+Z <= yz.DB_MAX_OUTPUT_PORT_TYPE
+
+

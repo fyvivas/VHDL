@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/CursoUnicauca2021-I/Digitales_II_C/ejercicios/fsm_copy/fsm.vhd
+source_file = 1, D:/CursoUnicauca2021-I/Digitales_II_C/ejercicios/fsm_copy/db/fsm.cbx.xml
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = fsm
+instance = comp, \Open_CW~output\, Open_CW~output, fsm, 1
+instance = comp, \Close_CCW~output\, Close_CCW~output, fsm, 1
+instance = comp, \Press~input\, Press~input, fsm, 1
+instance = comp, \clk~input\, clk~input, fsm, 1
+instance = comp, \current_state~0\, current_state~0, fsm, 1
+instance = comp, \reset~input\, reset~input, fsm, 1
+instance = comp, \Open_CW~0\, Open_CW~0, fsm, 1
+instance = comp, \Close_CCW~0\, Close_CCW~0, fsm, 1

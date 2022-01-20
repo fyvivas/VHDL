@@ -1,0 +1,106 @@
+library IEEE;
+ use ieee.std_logic_1164.all;
+ use ieee.numeric_std.all;
+
+
+entity fsm is
+	port
+	(
+		-- Input ports
+		Sm, Sf	: in  std_logic;
+		clk, reset: in std_logic;
+		-- Output ports
+		E, P, A	: out std_logic
+	);
+end fsm;
+
+architecture arch_fsm of fsm is
+
+	--signal D_bus, Q_bus: std_logic_vector(2 downto 0); -- Declarations (optional)
+	type estados is (espera, encender_e, apagar_e, abrir_p, alarma);
+	signal D_bus, Q_bus: estados;
+	signal salidas: std_logic_vector(2 downto 0);
+	
+begin
+
+	pSeq : PROCESS (clk, reset) IS
+		BEGIN
+			IF reset = '1' THEN
+           Q_bus <= espera;
+         ELSIF clk='1' AND clk'event THEN
+           Q_bus <= D_bus;
+         END IF;
+      END PROCESS;
+
+
+-- All choice expressions in a VHDL case statement must be constant
+-- and unique.	Also, the case statement must be complete, or it must
+-- include an others clause. 
+--case <expression> is
+--	when <constant_expression> =>
+--		-- Sequential Statement(s)
+--	when <constant_expression> =>
+--		-- Sequential Statement(s)
+--	when others =>
+--		-- Sequential Statement(s)
+--end case;
+--
+--if <expression> then
+--	-- Sequential Statement(s)
+--elsif <expression> then
+--	-- Sequential Statement(s)
+--else
+--	-- Sequential Statement(s);
+--end if;
+
+		
+		
+	logstd : PROCESS (Q_bus, Sm, Sf) IS
+		BEGIN
+			case(Q_bus) is
+				when espera =>
+					IF (Sm = '1' and Sf = '1') THEN
+						D_bus <= encender_e;
+					ELSE
+						D_bus <= espera;
+               END IF;
+				when encender_e =>
+					IF (Sm = '1' and Sf = '1') THEN
+						D_bus <= encender_e;
+					ELSIF Sm = '0' THEN
+						D_bus <= alarma;
+					ELSE
+						D_bus <= apagar_e;
+               END IF;
+				when others => D_bus <= espera;
+			END CASE;
+		END PROCESS;
+
+	with Q_bus select
+	salidas <= 	"000" when espera,
+					"100" when encender_e,
+					"000" when apagar_e,
+					"010" when abrir_p,
+					"001" when alarma,
+					"000"	when others;
+	
+--	<optional_label>: with <expression> select
+--	<target> <= <value> when <choices>
+--				<value> when <choices>
+--				<value> when <choices>
+--	 		    ...
+--				<value> when others;
+
+	
+	
+	E <= salidas(2);
+	P <= salidas(1);
+	A <= salidas(0);
+
+	-- Concurrent Signal Assignment (optional)
+
+	-- Conditional Signal Assignment (optional)
+
+	-- Selected Signal Assignment (optional)
+
+end arch_fsm;

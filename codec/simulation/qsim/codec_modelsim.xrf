@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/CursoUnicauca2021-I/Digitales_II_C/ejercicios/codec/codec.vhd
+source_file = 1, D:/CursoUnicauca2021-I/Digitales_II_C/ejercicios/codec/Waveform.vwf
+source_file = 1, D:/CursoUnicauca2021-I/Digitales_II_C/ejercicios/codec/db/codec.cbx.xml
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = codec
+instance = comp, \Y~output , Y~output, codec, 1
+instance = comp, \Z~output , Z~output, codec, 1
+instance = comp, \A~input , A~input, codec, 1
+instance = comp, \D~input , D~input, codec, 1
+instance = comp, \C~input , C~input, codec, 1
+instance = comp, \B~input , B~input, codec, 1
+instance = comp, \yz~0 , yz~0, codec, 1
+instance = comp, \yz~1 , yz~1, codec, 1

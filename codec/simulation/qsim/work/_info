@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CursoUnicauca2021-I\Digitales_II_C\ejercicios\codec\simulation\qsim
+vcodec
+Z1 IicTWWD=IEQT66QSVDleJf0
+Z2 VGLh96XNzVRHEdCnZocKLm3
+Z3 dD:\CursoUnicauca2021-I\Digitales_II_C\ejercicios\codec\simulation\qsim
+Z4 w1614867622
+Z5 8codec.vo
+Z6 Fcodec.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|codec.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 2DBm0B1PX?z5:6fkj_APG3
+!s85 0
+Z11 !s108 1614867623.627000
+Z12 !s107 codec.vo|
+!s101 -O0
+vcodec_vlg_check_tst
+!i10b 1
+Z13 !s100 c;mnb4Un2`^JaYMQZTJLE2
+Z14 IbmCb_=H=EDE<6MPS;odjM2
+Z15 VC1:;bl@=oVbF47Y5Cm8gX2
+R3
+Z16 w1614867621
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1614867623.812000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vcodec_vlg_sample_tst
+!i10b 1
+Z22 !s100 J[z]KYA4U7M11@R9FDX;A0
+Z23 IPUBK<k1I][E:O95KK7@DF3
+Z24 V8B?7OM:;zbo58mCJ<Nh4U0
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcodec_vlg_vec_tst
+!i10b 1
+Z25 !s100 9JM;^kZMkngTLRR88j7jU1
+Z26 IPFTB6JdoD[PFzSFgIKhI>2
+Z27 V<?b>5@^[T7oBOeZkVVOR@0
+R3
+R16
+R17
+R18
+Z28 L0 185
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

@@ -1,0 +1,35 @@
+library IEEE;
+ use ieee.std_logic_1164.all;
+ use ieee.numeric_std.all;
+
+
+entity codec is
+	port
+	(
+		-- Input ports
+		A, B, C, D	: in  std_logic;
+		-- Output ports
+		Y, Z	: out std_logic
+	);
+end codec;
+
+
+architecture arch_codec of codec is
+
+	signal yz: std_logic_vector(1 downto 0); -- Declarations (optional)
+
+begin
+
+	-- Conditional Signal Assignment (optional)
+
+	cond_codec: yz <= 
+	"00" when <condition> else
+	"01" when <condition> else 
+	"10" when <condition> else
+	"11";
+
+	Y <= yz(0);
+	Z <= yz(1);
+	
+end arch_codec;
+
